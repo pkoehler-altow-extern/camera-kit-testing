@@ -1,4 +1,4 @@
-import 'package:camera_kit_testing/native_view.dart';
+import 'package:camera_kit_testing/native_view/native_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {

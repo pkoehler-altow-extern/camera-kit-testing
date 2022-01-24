@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 
-class NativeView extends StatelessWidget {
-  const NativeView({Key? key}) : super(key: key);
+class NativeViewAndroid extends StatelessWidget {
+  const NativeViewAndroid({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    // This is used in the platform side to register the view.
+// This is used in the platform side to register the view.
     const String viewType = '<platform-view-type>';
     // Pass parameters to the platform side.
     const Map<String, dynamic> creationParams = <String, dynamic>{};
